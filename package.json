@@ -1,0 +1,40 @@
+{
+  "name": "simprove",
+  "version": "1.0.0",
+  "description": "to paractise",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanyuyan/s-off.git"
+  },
+  "keywords": [
+    "soff"
+  ],
+  "author": "Wendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanyuyan/s-off/issues"
+  },
+  "homepage": "https://github.com/wanyuyan/s-off#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "css-loader": "^0.25.0",
+    "npm-install-webpack-plugin": "^4.0.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.14.1"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
